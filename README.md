@@ -14,3 +14,8 @@ git remote add origin https://github.com/hectoralvaez/zenodoto.git
 ```
 npm install @vitejs/plugin-react -E
 ```
+
+# Instalar react react-dom
+```
+npm install react react-dom -E
+```
