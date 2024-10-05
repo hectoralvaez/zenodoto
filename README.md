@@ -42,3 +42,18 @@ root.render(<h1>Hello, World!</h1>)
 
 # Pasar main.js a main.jsx
 En Vite los archivos js no transpilan, hay que pasarlos a jsx.
+
+# Instalar linter
+```
+npm install standard -D
+```
+
+Añadir a mano la configuración de lint (`eslintConfig`) en `package.json`:
+
+```
+"eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+}
+```
+
+
