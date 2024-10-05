@@ -56,4 +56,16 @@ Añadir a mano la configuración de lint (`eslintConfig`) en `package.json`:
 }
 ```
 
+# Arrancar App.jsx
 
+1. Crear <App> en la carpeta `src`
+
+```javascript
+export function App () {
+    return(
+        <h1>Zenodoto</h1>
+    )
+}
+```
+
+2. Importar `App` en `main.jsx`
