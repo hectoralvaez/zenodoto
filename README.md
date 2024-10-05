@@ -39,3 +39,6 @@ import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById('app'))
 root.render(<h1>Hello, World!</h1>)
 ```
+
+# Pasar main.js a main.jsx
+En Vite los archivos js no transpilan, hay que pasarlos a jsx.
